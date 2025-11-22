@@ -59,12 +59,14 @@ Improve lending portfolio health and operational efficiency
 
 
 ## 📊 KPIs Tracked
-Metric	Description	Trend
-Total Loan Applications	MTD count and MoM comparison	Volume & demand
-Total Funded Amount	Approved loan disbursement trends	Capital allocation
-Total Amount Received	Cash inflow from repayments	Liquidity & recovery
-Average Interest Rate	Overall pricing health	Revenue generation
-Avg. Debt-to-Income Ratio	Applicant financial risk level	Creditworthiness
+| Metric                        | Description                       | Trend                |
+| ----------------------------- | --------------------------------- | -------------------- |
+| **Total Loan Applications**   | MTD count and MoM comparison      | Volume & demand      |
+| **Total Funded Amount**       | Approved loan disbursement trends | Capital allocation   |
+| **Total Amount Received**     | Cash inflow from repayments       | Liquidity & recovery |
+| **Average Interest Rate**     | Overall pricing health            | Revenue generation   |
+| **Avg. Debt-to-Income Ratio** | Applicant financial risk level    | Creditworthiness     |
+
 
 
 ## 🗂️ Dataset Details
