@@ -76,8 +76,24 @@ Records: Loan applicants with repayment outcomes
 
 ### Key Fields
 
-id, address_state, application_type, emp_length, emp_title,
-grade, sub_grade, home_ownership, annual_income, dti,
-issue_date, last_payment_date, last_credit_pull_date,
-loan_status, purpose, term, int_rate, installment,
-loan_amount, total_acc, total_payment, verification_status
+1. id
+2. address_state
+3. application_type
+4. emp_length
+5. emp_title
+6. grade, sub_grade
+7. home_ownership
+8. annual_income
+9. dti (debt to interest ratio)
+10. issue_date
+11. last_payment_date
+12. last_credit_pull_date
+13. loan_status
+14. purpose
+15. term
+16. int_rate
+17. installment
+18. loan_amount
+19. total_acc
+20. total_payment
+21. verification_status
