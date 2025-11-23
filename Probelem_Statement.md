@@ -29,7 +29,7 @@ the average DTI for all loans, MTD, and track Month-over-Month (MoM) fluctuation
 In order to evaluate the performance of our lending activities and assess the quality of our loan portfolio, we need to create a comprehensive 
 report that distinguishes between 'Good Loans' and 'Bad Loans' based on specific loan status criteria
 
-Good Loan KPIs:
+### Good Loan KPIs:
 1.	Good Loan Application Percentage: We need to calculate the percentage of loan applications classified as 'Good Loans.'
 This category includes loans with a loan status of 'Fully Paid' and 'Current.'
 
@@ -42,7 +42,7 @@ amounts of loans with a loan status of 'Fully Paid' and 'Current.'
 4.	Good Loan Total Received Amount: Tracking the total amount received from borrowers for 'Good Loans,' which encompasses all payments 
 made on loans with a loan status of 'Fully Paid' and 'Current.'
 
-## Bad Loan KPIs:
+### Bad Loan KPIs:
 1.	Bad Loan Application Percentage: Calculating the percentage of loan applications categorized as 'Bad Loans.' This category 
 specifically includes loans with a loan status of 'Charged Off.'
 
