@@ -183,5 +183,7 @@ Real-time approval pipeline automation
 ## 👤 Author
 
 Your Name — Full-Stack Data Analytics | FinTech
+
 📧 Email: pragati.pratishruti@gmail.com
+
 🔗 LinkedIn: www.linkedin.com/in/pragatipratishrutiswain
