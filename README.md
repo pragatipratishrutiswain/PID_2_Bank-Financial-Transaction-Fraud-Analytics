@@ -72,6 +72,7 @@ Improve lending portfolio health and operational efficiency
 ## 🗂️ Dataset Details
 
 Source: Synthetic internal-style Banking Dataset
+
 Records: Loan applicants with repayment outcomes
 
 ### Key Fields
@@ -105,5 +106,82 @@ Records: Loan applicants with repayment outcomes
 
 Excel Source → SQL Validation → Python (Colab) → EDA & ML → Power BI → Dashboards
 
+## 🧪 Data Processing & Feature Engineering
 
+1. Handling missing values & outliers
+2. Feature encoding: Grade, Home Ownership, Employment Length
+3. Date transformation for MTD & MoM analysis
+4. Imbalanced data handling (loan default)
+5. Feature importance analysis
 
+## 🤖 Machine Learning Models
+| Model                        | Purpose                 | Role                                 |
+| ---------------------------- | ----------------------- | ------------------------------------ |
+| **Logistic Regression**      | Baseline classification | Benchmark & interpretability         |
+| **Random Forest Classifier** | Final selected model    | Best accuracy & balanced performance |
+| **XGBoost**                  | Optimization            | Performance tuning                   |
+
+📌 Random Forest performed best and is used in final predictions.
+
+## 📈 Results & Insights
+
+Performance metrics such as Accuracy, F1-Score, ROC-AUC to be updated after model evaluation.
+Dashboard insights reveal high default risk patterns among:
+
+Low-income borrowers with higher DTI
+
+Lower credit grade categories
+
+Applicants from high-risk states
+
+Long-term loans (> 36 months)
+
+## 📊 Power BI Dashboards
+
+📌 MTD/MoM Lending KPIs | Approval Analytics | Default Risk Map
+
+🔗 Live Report: (Add your Power BI link here)
+
+🖼️ Screenshots: (Insert images)
+
+## 📁 Repository Structure
+
+|-- data/    
+|-- notebooks/
+|   └── Lending_Risk_Model.ipynb
+|-- dashboards/
+|   └── PowerBI_Screenshots/
+|-- src/
+|   └── preprocessing.py
+|   └── modeling.py
+|-- README.md (this file)
+
+🚀 How to Run
+
+### Clone repo
+git clone https://github.com/<your-username>/lending-risk-analytics.git
+cd lending-risk-analytics
+
+### Install dependencies
+pip install -r requirements.txt
+
+### Open notebook
+colab notebook /Lending_Risk_Model.ipynb
+
+## 🔮 Future Enhancements
+
+Add credit score bureau validation
+
+Deploy ML model as API for loan scoring
+
+Streamlit dashboard integration
+
+Model explainability (SHAP)
+
+Real-time approval pipeline automation
+
+## 👤 Author
+
+Your Name — Full-Stack Data Analytics | FinTech
+📧 Email: pragati.pratishruti@gmail.com
+🔗 LinkedIn: www.linkedin.com/in/pragatipratishrutiswain
