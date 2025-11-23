@@ -78,4 +78,5 @@ associated with different loan statuses.
 - - Average Interest Rate
 
 - - Average Debt-to-Income Ratio (DTI)
+  
   this grid view will empower us to make data-driven decisions and assess the health of our loan portfolio.
